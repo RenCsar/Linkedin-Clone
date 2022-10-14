@@ -1,0 +1,18 @@
+@import url(./style.css);
+
+:root {
+    --azul-primario: #0077B5;
+    --branco: #FFFFFF;
+    --verde: #02B033;
+    --bg-body: #E5E5E5;
+    --bg-buton-azul: #0275B1;
+    --bg-buton-gradiente: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
+    --font-family: 'Montserrat', sans-serif;
+    --preto-font: #181818;
+    --cinza-font: #747474;
+    --azul-link: #0275B1;
+}
+
+
+
+

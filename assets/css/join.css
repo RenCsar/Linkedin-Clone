@@ -1,0 +1,23 @@
+/* Variaveis */
+@import url("./variaveis.css");
+
+/* Global */
+@import url("./global.css"); /* Header [001] e Footer [002] */
+
+
+/* Pagina Profile */
+@import url("./profile-page/profile.css");  /* [003] */
+@import url("./profile-page/sidebar.css");  /* [004] */
+@import url("./profile-page/about.css");  /* [005] */
+@import url("./profile-page/project.css");  /* [006] */
+@import url("./profile-page/skills.css");  /* [007] */
+@import url("./profile-page/experience.css"); /* [008] */
+@import url("./profile-page/education.css");  /* [009] */
+
+urP/* agina Feed */
+@@import url("./feed-page/sidebar.css");      /* [010] */
+@import url("./feed-page/new-post.css");    /* [011] */
+@import url("./feed-page/theresa-post.css");  /* [012] */
+@import url("./feed-page/kyle-fisher-post.css");  /* [013] */
+@import url("./feed-page/brandon-wilson-post.css");  /* [014] */
+@import url("./feed-page/audrey-alexander-post.css");  /* [015] */
