@@ -14,8 +14,9 @@
 @import url("./profile-page/experience.css"); /* [008] */
 @import url("./profile-page/education.css");  /* [009] */
 
-urP/* agina Feed */
-@@import url("./feed-page/sidebar.css");      /* [010] */
+/* Pagina Feed */
+
+@import url("./feed-page/sidebar.css");      /* [010] */
 @import url("./feed-page/new-post.css");    /* [011] */
 @import url("./feed-page/theresa-post.css");  /* [012] */
 @import url("./feed-page/kyle-fisher-post.css");  /* [013] */
