@@ -203,3 +203,32 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
     background-color: yellow;
 }
 
+.btn-azul {
+    background-color: var(--azul-primario);
+    color: var(--branco);
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid var(--azul-primario);
+    border-radius: 4px;
+}
+
+.btn-azul:hover {
+    background-color: var(--branco);
+    color: var(--azul-primario);
+    transform: var(--transform-scale-min);
+}
+
+.btn-branco {
+    background-color: var(--branco);
+    color: var(--azul-primario);
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid var(--azul-primario);
+    border-radius: 4px;
+}
+
+.btn-branco:hover {
+    background-color: var(--azul-primario);
+    color: var(--branco);
+    transform: var(--transform-scale);
+}
