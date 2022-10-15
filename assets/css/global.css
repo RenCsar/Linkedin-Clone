@@ -157,6 +157,11 @@ footer .navigation-text {
 footer .navigation-text .text-col-1, .fast-container, .language-container {
     margin-top: 5px;
 }
+
+.navigation-text .text-col-1 p + p, .navigation-text .text-col-2 p + p, .navigation-text .text-col-3 p + p{
+    margin-top: 10px;
+}
+
 .navigation-text .text-col-1 p:nth-child(1){
     font-weight: bold;
 }
@@ -166,7 +171,7 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
 }
 
  .navigation-text .text-col-2, .text-col-3 {
-    margin-top: 54px;
+    margin-top: 50px;
 }
 
 .navigation-text .fast-container p, .language-container p {
@@ -179,7 +184,7 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
 }
 
 .navigation-text .fast-container button:nth-child(2), .language-container select {
-    margin-top: 34px;
+    margin-top: 30px;
 }
 
 .fast-container button + button {
