@@ -1,1 +1,13 @@
 /* PP [003] - Profile */
+
+.profile {
+    height: 360px;
+    width: 100%;
+    background-color: green;
+}
+
+.profile-red {    
+    height: 360px;
+    width: 100%;
+    background-color: red;
+}
