@@ -58,13 +58,6 @@ header nav ul {
     border-right: 1px solid var(--bg-body);
 }
 
-header nav ul li {
-    
-}
-
-
-
-
 header .search-container {
     height: 100%;
     width: 367px;
@@ -123,6 +116,10 @@ justify-content: flex-end;
 .text-container p:first-child span {
     color: var(--cinza-placeholder-search);
     font-weight: 400;
+}
+
+.text-container p:last-child {
+    color: var(--cinza-font);
 }
 
 .text-container p:last-child span {
