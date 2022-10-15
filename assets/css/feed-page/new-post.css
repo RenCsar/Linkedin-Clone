@@ -1,1 +1,74 @@
 /* PF [011] - New Posr */
+
+.feed-conteudo-container{
+    color: var(--preto-font);
+
+}
+
+.feed {
+    height: 360px;
+    width: 100%;
+    background-color: rgb(156, 255, 156);
+}
+
+.new-post-container{
+    /* display: flex; */
+    background-color: var(--branco);
+    /* align-items: center; */
+    height: 135px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+}
+
+.new-post-box{
+padding: 25px 30px 0px 30px;
+
+}
+
+.new-post-titulo{
+    height: 89px;   
+}
+
+.new-post-container h3{
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    padding: 0px 0px 20px 0px;
+
+}
+
+.new-post-box hr{
+    border: 1px solid #F4F4F4;
+}
+
+.new-post-input{
+    display: flex;
+    /* margin: 50px 0px 0px 0px; */
+    justify-content: space-between;
+
+}
+
+.new-post-input input{
+    width: 597px;
+    height: 76px;
+    border: none;
+}
+
+.new-post-icons{
+    display: flex;
+    align-items: end;
+    gap: 22px;
+    padding: 0px 0px 20px 0px;
+
+}
+
+.new-post-icons i{
+    color: #dadada;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.new-post-icons img{
+    cursor: pointer;
+
+}
