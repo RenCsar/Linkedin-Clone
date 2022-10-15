@@ -1,1 +1,73 @@
 /* PP [007] - Skills & Endoresments */
+
+.col-1 .profile-experience-container {
+    height: 220px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.profile-experience-container .experience-container {
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+.profile-experience-container .experience-container .titulo-skills {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.experience-container .img-experience-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.experience-container .img-experience-container img{
+    width: 99px;
+}
+
+.experience-container .projeto-1-xp, .experience-container .projeto-2-xp, .experience-container .projeto-3-xp{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 230px;
+    border: 1px solid rgb(0, 0, 0, .06);
+    border-radius: 6px;
+    padding: 5px 20px;
+}
+
+.experience-container .projeto-1-xp:hover, .experience-container .projeto-2-xp:hover, .experience-container .projeto-3-xp:hover {
+    transform: var(--transform-scale);
+}
+
+
+ .projeto-1-xp p, .projeto-2-xp p, .projeto-3-xp p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.txt-xp-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.txt-xp-container span {
+    color: var(--azul-primario);
+}
+
+.profile-experience-container .experience-container .link-projects{
+    font-size: 12px;
+    margin-top: 20px;
+    color: var(--azul-link);
+    cursor: pointer;
+}
+
+.profile-experience-container .experience-container .link-projects:hover {
+    text-decoration: underline;
+}

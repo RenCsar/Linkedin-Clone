@@ -64,6 +64,6 @@
     cursor: pointer;
 }
 
-.profile-projects-container .projects-container .link-projects {
+.profile-projects-container .projects-container .link-projects:hover {
     text-decoration: underline;
 }
