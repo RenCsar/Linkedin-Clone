@@ -195,7 +195,6 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
 
 .col-1 {
     width: 80%;
-    background-color: blue;
 }
 
 .col-2 {
@@ -215,7 +214,7 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
 .btn-azul:hover {
     background-color: var(--branco);
     color: var(--azul-primario);
-    transform: var(--transform-scale-min);
+    transform: var(--transform-scale);
 }
 
 .btn-branco {

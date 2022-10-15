@@ -1,1 +1,71 @@
 /* PP [005] - About */
+
+
+
+.col-1 .profile-about-container {
+    height: 240px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.col-1 .profile-about-container .abas {
+    display: flex;
+    background-color: var(--bg-body);
+    height: 40px;
+}
+
+.abas .profile-aba, .abas .actividade-aba, .abas .artigos-aba {
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid var(--bg-body);
+    cursor: pointer;
+}
+
+.abas .profile-aba {
+    border-top-left-radius: 4px;
+    background-color: var(--azul-primario);
+    color: var(--branco);
+}
+
+.abas .actividade-aba {
+    background-color: var(--branco);
+}
+
+.abas .artigos-aba {
+    background-color: var(--branco);
+    border-top-right-radius: 4px;
+}
+
+.profile-about-container .about-txt-container {
+    margin-top: 50px;
+    padding: 0px 30px;
+} 
+
+.profile-about-container .about-txt-container p:nth-child(1) {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile-about-container .about-txt-container p:nth-child(2) {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.profile-about-container .about-txt-container p:nth-child(3) {
+    font-size: 12px;
+    margin-top: 20px;
+    color: var(--azul-link);
+    cursor: pointer;
+}
+
+.profile-about-container .about-txt-container p:nth-child(3):hover {
+    text-decoration: underline;
+}
