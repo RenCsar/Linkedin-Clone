@@ -23,6 +23,11 @@
     display: flex;
     font-size: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.profile-experience-container .self-container:hover, .profile-experience-container .upwork-container:hover {
+    transform: var(--transform-scale-min);
 }
 
 .self-container .exp-img-container, .upwork-container .exp-img-container {
@@ -55,7 +60,6 @@
     margin-left: 5px;
     color: var(--azul-primario);
 }
-
 
 .profile-experience-container .upwork-container {
     display: flex;
