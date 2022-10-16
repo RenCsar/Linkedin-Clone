@@ -16,26 +16,6 @@
 
 }
 
-.theresa-steward-profile-box{
-    display: flex;
-    padding: 15px 0px 15px 24px;
-}
-
-.theresa-steward-profile-box img{
-    margin: 0px 15px 0px 0px;
-    cursor: pointer;
-
-}
-
-.theresa-steward-identificacao{
-    margin: 10px 0px 0px 0px;
-
-}
-
-.theresa-steward-identificacao h4{
-    cursor: pointer;
-}
-
 .theresa-steward-post-text{
     margin: 0px 25px 25px 25px;
 }

@@ -87,3 +87,25 @@
     width: 50%;
 
 }
+
+
+/* Profile Post */
+.profile-post-container{
+    display: flex;
+    padding: 15px 0px 15px 24px;
+}
+
+.profile-post-container img{
+    margin: 0px 15px 0px 0px;
+    cursor: pointer;
+
+}
+
+.post-identificacao{
+    margin: 10px 0px 0px 0px;
+
+}
+
+.post-identificacao h4{
+    cursor: pointer;
+}
