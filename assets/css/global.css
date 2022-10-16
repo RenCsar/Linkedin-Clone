@@ -208,3 +208,14 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
     background-color: yellow;
 }
 
+.feed-conteudo-container{
+    color: var(--preto-font);
+
+}
+
+/* feedPage para testes */
+.feed {
+    height: 360px;
+    width: 100%;
+    background-color: rgb(156, 255, 156);
+}

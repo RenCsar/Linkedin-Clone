@@ -1,14 +1,8 @@
 /* PF [011] - New Posr */
 
-.feed-conteudo-container{
-    color: var(--preto-font);
-
-}
-
-.feed {
-    height: 360px;
+.new-post {
     width: 100%;
-    background-color: rgb(156, 255, 156);
+    height: 135px;
 }
 
 .new-post-container{
@@ -70,5 +64,36 @@ padding: 25px 30px 0px 30px;
 
 .new-post-icons img{
     cursor: pointer;
+
+}
+
+
+.trending-hr-container{
+    margin: 33px 0px;
+
+
+}
+
+.trending-hr {
+    display: flex;
+    align-items: center;
+
+}
+.trending-hr hr {
+   flex:1;
+   border: 1px solid #F4F4F4;  
+   /* border: 1px solid #000000; */
+   margin: 0px 20px;
+}
+
+.trending-hr span{
+    text-transform: uppercase;
+    color: var(--azul-primario);
+}
+
+.trending-hr h6{
+    font-size: 12px;
+    line-height: 11px;
+
 
 }
