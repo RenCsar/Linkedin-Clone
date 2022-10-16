@@ -138,13 +138,13 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 40px;
+    gap: 60px;
 }
 
 footer .navigation-text {
     display: flex;    
     font-size: 12px;
-    gap: 65px;
+    gap: 50px;
     margin-left: 20px;
 }
 
@@ -177,12 +177,27 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
     flex-direction: column;
 }
 
+.navigation-text .fast-container button {
+    width: 170px;
+    height: 32px;
+}
+
 .navigation-text .fast-container button:nth-child(2), .language-container select {
     margin-top: 30px;
 }
 
 .fast-container button + button {
     margin-top: 10px;
+}
+
+.navigation-text .language-container select {
+    width: 270px;
+    height: 32px;
+}
+
+.navigation-text .language-container select option {
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .profile-conteudo-container {
