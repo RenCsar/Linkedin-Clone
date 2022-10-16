@@ -1,1 +1,63 @@
 /* PP [004] - Sidebar */
+
+.dashboard {
+    background-color: var(--branco);
+    height: 360px;
+    width: 100%;
+    padding: 25px;
+}
+
+.dashboard-header {
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.dashboard-header p:nth-child(2){
+    color: var(--azul-primario);
+}
+
+.views-today, .post, .search {
+    margin-top: 5px;
+}
+
+.views-today p:nth-child(1) {
+    font-size: 52px;
+    color: var(--azul-primario);
+}
+
+.views-today p:nth-child(2), .post p:nth-child(2), .search p:nth-child(2) {
+    font-size: 14px;
+}
+
+.post p:nth-child(1) {
+    font-size: 52px;
+    color: var(--azul-primario);
+}
+
+.search p:nth-child(1) {
+    font-size: 52px;
+    color: var(--azul-primario);
+}
+
+.visitors {
+    background-color: var(--branco);
+    height: 427px;
+    width: 100%;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.visitors-header {
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.visitors-header p:nth-child(2){
+    color: var(--azul-primario);
+}

@@ -203,18 +203,17 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
 .profile-conteudo-container {
     height: 100%;
     display: flex;
-    gap: 4%;
-    padding: 0 6%;
+    gap: 3%;
+    padding: 0 4%;
     margin: 40px;
 }
 
 .col-1 {
-    width: 80%;
+    width: 75%;
 }
 
 .col-2 {
-    width: 20%;
-    background-color: yellow;
+    width: 25%;
 }
 
 .btn-azul {
