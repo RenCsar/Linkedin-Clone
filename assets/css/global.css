@@ -57,6 +57,10 @@ header nav ul {
     border-right: 1px solid var(--bg-body);
 }
 
+header nav ul li {
+    cursor: pointer;
+}
+
 header .search-container {
     height: 100%;
     width: 367px;
@@ -67,6 +71,7 @@ header .search-container {
 
 .search-container img {
     margin-left: 30px;
+    cursor: pointer;
  }
 
 .search-container input {
@@ -93,6 +98,7 @@ width: 72px;
 display: flex;
 align-items: center;
 justify-content: flex-end;
+cursor: pointer;
 }
 
  .views-header-container .img-views-container img {
@@ -103,6 +109,7 @@ justify-content: flex-end;
 .views-header-container .text-container {
     font-size: 10px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .text-container p:first-child {
@@ -124,6 +131,7 @@ justify-content: flex-end;
 
 .other-container{
     height: 100%;
+    cursor: pointer;
 }
 
 /* Footer PF E PP [002] */
