@@ -3,7 +3,7 @@
 
 /* Global */
 @import url("./global.css"); /* Header [001] e Footer [002] */
-
+@import url("./feed-page/feed-global.css"); /* CSS global para o feed */
 
 /* Pagina Profile */
 @import url("./profile-page/profile.css");  /* [003] */
