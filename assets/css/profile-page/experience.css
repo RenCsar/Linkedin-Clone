@@ -1,6 +1,6 @@
 /* PP [008] - Experience */
 
-.profile-education-container {
+.profile-experience-container {
     height: 345px;
     width: 100%;
     margin-top: 20px;
@@ -11,20 +11,53 @@
     flex-direction: column;
 }
 
-.profile-education-container .exp-titulo {
+.profile-experience-container .exp-titulo {
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-.self-container {    
-    background-color: red;
+.profile-experience-container .self-container, .profile-experience-container .upwork-container  {
     padding: 10px;
     display: flex;
+    font-size: 10px;
+    margin-bottom: 10px;
 }
 
-.profile-education-container .upwork-container {    
-    background-color: blue;
-    display: flex;
+.self-container .exp-img-container, .upwork-container .exp-img-container {
+    margin-right: 16px;
+}
 
+.self-container .exp-info-container .exp-titulo-info, .upwork-container .exp-info-container .exp-titulo-info {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.self-container .exp-info-container .exp-l2, .upwork-container .exp-info-container .exp-l2 {
+    display: flex; 
+    margin-top: 5px;   
+}
+
+.self-container .exp-info-container .exp-l2 p:nth-child(2), .upwork-container .exp-info-container .exp-l2 p:nth-child(2){
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.self-container .exp-info-container .exp-l3, .upwork-container .exp-info-container .exp-l3 {
+    display: flex; 
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.self-container .exp-info-container .exp-l3 p:nth-child(2), .upwork-container .exp-info-container .exp-l3 p:nth-child(2){
+    font-weight: 600;
+    margin-left: 5px;
+    color: var(--azul-primario);
+}
+
+
+.profile-experience-container .upwork-container {
+    display: flex;
+    margin-top: 10px;
 }
