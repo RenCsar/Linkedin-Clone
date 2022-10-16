@@ -1,1 +1,39 @@
 /* PP [009] - Education */
+
+.profile-education-container {
+    height: 195px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--branco);
+    border-radius: 4px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-education-container .edu-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.profile-education-container .moscow-container  {
+    padding: 10px;
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.moscow-container .edu-img-container {
+    margin-right: 16px;
+}
+
+.moscow-container .edu-info-container .edu-titulo-info {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.moscow-container .edu-info-container p + p {
+    margin-top: 10px;
+}
