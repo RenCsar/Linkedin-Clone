@@ -1,1 +1,30 @@
 /* PP [008] - Experience */
+
+.profile-education-container {
+    height: 345px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--branco);
+    border-radius: 4px;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-education-container .exp-titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.self-container {    
+    background-color: red;
+    padding: 10px;
+    display: flex;
+}
+
+.profile-education-container .upwork-container {    
+    background-color: blue;
+    display: flex;
+
+}
