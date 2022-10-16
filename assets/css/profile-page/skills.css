@@ -44,7 +44,6 @@
     transform: var(--transform-scale);
 }
 
-
 .projeto-1-skills p, .projeto-2-skills p, .projeto-3-skills p{
     font-size: 12px;
     font-weight: bold;
@@ -55,7 +54,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 
 .txt-skills-container span {
     color: var(--azul-primario);
