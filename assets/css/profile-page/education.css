@@ -18,11 +18,16 @@
     margin-bottom: 10px;
 }
 
-.profile-education-container .moscow-container  {
+.profile-education-container .moscow-container {
     padding: 10px;
     display: flex;
     font-size: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.profile-education-container .moscow-container:hover {
+    transform: var(--transform-scale-min);
 }
 
 .moscow-container .edu-img-container {
