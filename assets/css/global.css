@@ -273,7 +273,7 @@ textarea:focus, input:focus, select:focus {
     outline: 0;
 }
 
-.profile-conteudo-container, .feed-conteudo-container {
+.feed-conteudo-container {
     height: 100%;
     display: flex;
     gap: 60px;
