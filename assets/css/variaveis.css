@@ -1,19 +1,18 @@
 @import url(./style.css);
 
 :root {
-    --azul-primario: #0077B5;
+    --azul-primario: #0077B5;    
+    --azul-link: #0275B1;
     --branco: #FFFFFF;
-    --verde: #02B033;
     --bg-body: #F7F9FB;
     --bg-footer: #f4f6f9;
     --bg-buton-azul: #0275B1;
     --bg-buton-gradiente: linear-gradient(180deg, #0077B5 0%, #0E6795 100%);
-    --font-family: 'Montserrat', sans-serif;
-    --preto-font: #181818;
     --cinza-font: #747474;
     --cinza-placeholder-search: #CECECE;
-    --azul-link: #0275B1;
+    --font-family: 'Montserrat', sans-serif;
+    --preto-font: #181818;
+    --transform-scale: scale(1.1);
+    --transform-scale-min: scale(1.009);
+    --verde: #02B033;
 }
-
-
-

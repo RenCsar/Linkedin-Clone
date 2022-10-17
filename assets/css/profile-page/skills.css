@@ -1,1 +1,71 @@
 /* PP [007] - Skills & Endoresments */
+
+.col-1 .profile-skills-container {
+    height: 220px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.profile-skills-container .skills-container {
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+.profile-skills-container .skills-container .titulo-skills {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.skills-container .img-skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.skills-container .img-skills-container img{
+    width: 99px;
+}
+
+.skills-container .projeto-1-skills, .skills-container .projeto-2-skills, .skills-container .projeto-3-skills{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 230px;
+    border: 1px solid rgb(0, 0, 0, .06);
+    border-radius: 6px;
+    padding: 5px 20px;
+}
+
+.skills-container .projeto-1-skills:hover, .skills-container .projeto-2-skills:hover, .skills-container .projeto-3-skills:hover {
+    transform: var(--transform-scale);
+}
+
+.projeto-1-skills p, .projeto-2-skills p, .projeto-3-skills p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.txt-skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-skills-container span {
+    color: var(--azul-primario);
+}
+
+.profile-skills-container .skills-container .link-projects{
+    font-size: 12px;
+    margin-top: 20px;
+    color: var(--azul-link);
+    cursor: pointer;
+}
+
+.profile-skills-container .skills-container .link-projects:hover {
+    text-decoration: underline;
+}

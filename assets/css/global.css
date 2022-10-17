@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap');
 
 @import url(./variaveis.css);
 
@@ -57,6 +57,10 @@ header nav ul {
     border-right: 1px solid var(--bg-body);
 }
 
+header nav ul li {
+    cursor: pointer;
+}
+
 header .search-container {
     height: 100%;
     width: 367px;
@@ -72,6 +76,7 @@ textarea:focus, input:focus, select:focus {
 }
 .search-container img {
     margin-left: 30px;
+    cursor: pointer;
  }
 
 .search-container input {
@@ -98,6 +103,7 @@ width: 72px;
 display: flex;
 align-items: center;
 justify-content: flex-end;
+cursor: pointer;
 }
 
  .views-header-container .img-views-container img {
@@ -108,6 +114,7 @@ justify-content: flex-end;
 .views-header-container .text-container {
     font-size: 10px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .text-container p:first-child {
@@ -129,6 +136,7 @@ justify-content: flex-end;
 
 .other-container{
     height: 100%;
+    cursor: pointer;
 }
 
 /* Footer PF E PP [002] */
@@ -143,14 +151,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 40px;
+    gap: 60px;
 }
 
 footer .navigation-text {
     display: flex;    
-    font-size: 12px;
-    gap: 65px;
-    margin-left: 20px;
+    font-size: 10px;
+    gap: 40px;
+    margin-left: 10px;
 }
 
 footer .navigation-text .text-col-1, .fast-container, .language-container {
@@ -158,28 +166,35 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
 }
 
 .navigation-text .text-col-1 p + p, .navigation-text .text-col-2 p + p, .navigation-text .text-col-3 p + p{
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .navigation-text .text-col-1 p:nth-child(1){
     font-weight: bold;
+    font-size: 12px;
 }
 
 .navigation-text .text-col-1 p:nth-child(2){
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
  .navigation-text .text-col-2, .text-col-3 {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .navigation-text .fast-container p, .language-container p {
-    font-weight: bold;
+    font-weight: bold;    
+    font-size: 12px;
 }
 
 .navigation-text .fast-container, .language-container {
     display: flex;
     flex-direction: column;
+}
+
+.navigation-text .fast-container button {
+    width: 170px;
+    height: 32px;
 }
 
 .navigation-text .fast-container button:nth-child(2), .language-container select {
@@ -191,25 +206,63 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
 }
 
 .profile-conteudo-container, .feed-conteudo-container {
+.navigation-text .language-container select {
+    width: 270px;
+    height: 32px;
+}
+
+.navigation-text .language-container select option {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.profile-conteudo-container {
+
     height: 100%;
     display: flex;
-    gap: 60px;
-    padding: 0 8%;
+    gap: 3%;
+    padding: 0 4%;
     margin: 40px;
 }
 
 .col-1 {
-    width: 80%;
-    background-color: blue;
+    width: 75%;
 }
 
 .col-2 {
-    width: 20%;
-    background-color: yellow;
+    width: 25%;
 }
-
 .feed-conteudo-container{
     color: var(--preto-font);
 
 }
 
+.btn-azul {
+    background-color: var(--azul-primario);
+    color: var(--branco);
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid var(--azul-primario);
+    border-radius: 4px;
+}
+
+.btn-azul:hover {
+    background-color: var(--branco);
+    color: var(--azul-primario);
+    transform: var(--transform-scale);
+}
+
+.btn-branco {
+    background-color: var(--branco);
+    color: var(--azul-primario);
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid var(--azul-primario);
+    border-radius: 4px;
+}
+
+.btn-branco:hover {
+    background-color: var(--azul-primario);
+    color: var(--branco);
+    transform: var(--transform-scale);
+}
