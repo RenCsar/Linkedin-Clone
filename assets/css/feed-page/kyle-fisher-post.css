@@ -1,1 +1,32 @@
 /* PF [013] - Kyle Fisher */
+
+.post-kyle-fisher{
+    width: 100%;
+    height: 560px;    
+    background-color: var(--branco); 
+    border-radius: 4px;
+    margin: 20px 0px 0px 0px;
+}
+
+.post-kyle-fisher hr{
+    border: 1px solid #F4F4F4;
+    background: #f4f4f4; 
+}
+
+.kyle-fisher-post-text{
+    /* display: flex; */
+    flex-wrap: wrap;
+    padding: 15px 30px 20px 30px;
+
+}
+
+.kyle-fisher-post-text p{
+
+}
+
+.kyle-fisher-post-text img{
+    height: 300px;
+    width: 100%; 
+    margin: 15px 0px 0px 0px;
+    
+}

@@ -1,0 +1,111 @@
+/* Top Posts */
+
+.post-top{
+    display: flex;
+    padding: 20px 15px 0px 15px;  
+
+}
+
+.post-top span{
+    color: var(--azul-primario);
+    cursor: pointer;
+
+}
+
+.post-top small{
+    font-size: 10px;
+    line-height: 150%;
+}
+
+.top-left{
+    display: flex;
+    width: 50%;
+
+}
+
+.top-right{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+
+.top-right img{
+    margin: 0px 0px 10px 0px;
+    cursor: pointer;
+}
+
+
+
+/* "Rodapé" Posts */
+
+.post-bottom{
+    display: flex;
+    
+}
+
+.post-curtir, .post-comentario{
+    display: flex;
+    padding: 15px 25px;
+    border-right: 1px solid #f4f4f4;
+
+}
+
+.post-share{
+    border-left: 1px solid #f4f4f4;
+
+}
+
+.post-curtir h6 , .post-comentario h6, .post-share h6{
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+
+}
+
+.quantidades-curtir, .quantidades-comentario, .compartilhar{
+    margin: 4px 0px 0px 5px;
+}
+
+.post-curtir img , .post-comentario img, .post-share img{
+   cursor: pointer;
+
+}
+
+.post-share{
+    display: flex;
+    padding: 15px 25px;
+}
+
+.bottom-left{
+    display: flex;
+    width: 50%;
+}
+
+.bottom-right{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+
+}
+
+
+/* Profile Post */
+.profile-post-container{
+    display: flex;
+    padding: 15px 0px 15px 24px;
+}
+
+.profile-post-container img{
+    margin: 0px 15px 0px 0px;
+    cursor: pointer;
+
+}
+
+.post-identificacao{
+    margin: 10px 0px 0px 0px;
+
+}
+
+.post-identificacao h4{
+    cursor: pointer;
+}
