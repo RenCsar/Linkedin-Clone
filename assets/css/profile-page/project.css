@@ -1,1 +1,68 @@
 /* PP [006] - Project */
+
+.col-1 .profile-projects-container {
+    height: 355px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.profile-projects-container .projects-container {
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+.profile-projects-container .projects-container p:nth-child(1) {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile-projects-container .projects-container span {
+    color: var(--cinza-font);
+    font-weight: 400;
+}
+
+.projects-container .img-projects-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.projects-container .img-projects-container img{
+    width: 230px;
+}
+
+.img-projects-container .projeto-1, .projeto-2, .projeto-3{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.img-projects-container .projeto-1:hover, .img-projects-container .projeto-2:hover, .img-projects-container .projeto-3:hover {
+    transform: var(--transform-scale);
+}
+
+.img-projects-container .projeto-1 p:nth-child(2), .projeto-2 p:nth-child(2), .projeto-3 p:nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.img-projects-container .projeto-1 p:nth-child(3), .projeto-2 p:nth-child(3), .projeto-3 p:nth-child(3){
+    font-size: 10px;
+}
+
+.profile-projects-container .projects-container .link-projects{
+    font-size: 12px;
+    margin-top: 20px;
+    color: var(--azul-link);
+    cursor: pointer;
+}
+
+.profile-projects-container .projects-container .link-projects:hover {
+    text-decoration: underline;
+}
