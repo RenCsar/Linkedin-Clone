@@ -11,6 +11,7 @@
     background-image: url('../../img/banner-pp.png');
     height: 50%;
     display: flex;
+    width: 100%;
 }
 
 .banner-container .banner-icons {

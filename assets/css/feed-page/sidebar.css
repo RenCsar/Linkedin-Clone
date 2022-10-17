@@ -42,7 +42,6 @@
 .sidebar-feed-top-box-left{
     display: flex;
     width: 80%;
-
 }    
 
 .sidebar-feed-top-box-right{
@@ -55,6 +54,11 @@
     color: var(--azul-link);
 
 }
+
+.sidebar-feed-top-box-left h5, .sidebar-feed-top-box-right span{
+    cursor: pointer;
+}
+
 
 .col-2 hr{
     border: 1px solid #F4F4F4;
@@ -82,6 +86,7 @@
 .profile-feed-sidebar img{
     width: 100px;
     height: 100px;
+    cursor: pointer;
 
 }
 
@@ -152,6 +157,7 @@
 }
 
 .group-feed img{ 
+    cursor: pointer;
     width: 52px;
     height: 52px;
     margin: 14px;
@@ -168,6 +174,7 @@
 }
 
 .group-feed h6{
+    cursor: pointer;
     font-size: 14px;
     line-height: 125%;
     margin: 14px 0px 12px 0px;
@@ -201,6 +208,7 @@
     border-radius: 4px;
     padding: 7px 12px;
     margin: 0px 0px 5px 0px;
+    cursor: pointer;
 
 }
 
@@ -226,11 +234,13 @@
 
 }
 
-.trending-article-img{
+.trending-article-img img{
+    cursor: pointer;
     
 }
 
 .trending-article-text h6{
+    cursor: pointer;
     font-size: 14px;
     margin: 0px 0px 5px 0px;
 }
