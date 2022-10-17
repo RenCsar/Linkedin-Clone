@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://github.com/melpalhano/Linkedin-Clone/blob/main/assets/img/logo-linkedin.png" alt="logo linkedin" style="width:50px;"/>
+  <p>Linkedin Clone</p>
+</div>
+
 ### Sobre o projeto
 <div align="justify">
 
@@ -10,6 +15,3 @@
 ### 🖥️ Time:  
 - <a href='https://github.com/RenCsar'><b>Renan César</b></a>
 - <a href= 'https://github.com/melpalhano'><b>Melissa Palhano</b></a>
-
----
-> Módulo - HTML e CSS [Projeto Final] : Programa Vem Ser DBC 
