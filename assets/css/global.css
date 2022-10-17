@@ -205,7 +205,6 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
     margin-top: 10px;
 }
 
-.profile-conteudo-container, .feed-conteudo-container {
 .navigation-text .language-container select {
     width: 270px;
     height: 32px;
@@ -265,4 +264,24 @@ footer .navigation-text .text-col-1, .fast-container, .language-container {
     background-color: var(--azul-primario);
     color: var(--branco);
     transform: var(--transform-scale);
+}
+
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.profile-conteudo-container, .feed-conteudo-container {
+    height: 100%;
+    display: flex;
+    gap: 60px;
+    padding: 0 8%;
+    margin: 40px;
+}
+
+.feed-conteudo-container{
+    color: var(--preto-font);
+
 }
