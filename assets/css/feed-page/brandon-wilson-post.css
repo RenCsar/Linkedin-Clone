@@ -1,1 +1,67 @@
 /* PF [014] - Brandon Wilson */
+.post-brandon-wilson{
+    width: 100%;
+    /* height: 502px; */
+    background-color: var(--branco); 
+    border-radius: 4px;
+    margin: 20px 0px 0px 0px;
+}
+
+.post-brandon-wilson hr {
+    border: 1px solid #F4F4F4;
+    background: #f4f4f4;
+}
+
+.diretrizes-ios-post{
+}
+
+.brandon-wilson-post-text{
+}
+
+.brandon-wilson-post-text p {
+    margin: 10px 30px;
+}
+
+.diretrizes-box{
+    background: #E9F0F8;
+    border-radius: 4px;
+    margin: 10px 30px;
+    display: flex;
+    
+}
+
+.diretrizes-img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.diretrizes-img img{
+    margin: 16px 10px 15px 18px;
+    width: 42px;
+    height: 42px;
+}
+
+.diretrizes-img img, .diretrizes-cloud img, .diretrizes-text h4, .diretrizes-text small{
+    cursor: pointer;
+
+}
+
+.diretrizes-text{
+    flex-wrap: wrap;
+    margin: 20px 0px 0px 0px;
+    width: 50%;
+
+}
+
+.diretrizes-cloud{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+
+.diretrizes-cloud img{
+    width: 24px;
+    height: 24px;
+    margin: 28px;
+}

@@ -1,1 +1,18 @@
 /* PF [015] - Audrey Alexander */
+
+.post-audrey-alexander{
+    width: 100%;
+    background-color: var(--branco); 
+    border-radius: 4px;
+    margin: 20px 0px 35px 0px;
+}
+
+.audrey-alexander-post-text{
+    margin: 5px 30px 25px 30px;
+
+}
+
+.post-audrey-alexander hr {
+    border: 1px solid #F4F4F4;
+    background: #f4f4f4;
+}
